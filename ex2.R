@@ -6,7 +6,7 @@ data(Glass)
 
 l <- length(Glass[,1]) 
 sub <- sample(1:l,7*l/10)  
-mfinal <- seq(1, 201, 40) 
+mfinal <- seq(1, 201, 10) 
 maxdepth <- 5 
 
 resList <- list()

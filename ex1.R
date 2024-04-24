@@ -6,7 +6,7 @@ data(Vehicle)
 l <- length(Vehicle[,1]) 
 sub <- sample(1:l,7*l/10)  
 
-mfinal <- seq(1, 301, 60) 
+mfinal <- seq(1, 301, 10) 
 
 maxdepth <- 5 
 
